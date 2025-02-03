@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
+# <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="30" height="30"> React: Escrevendo com Typescript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desenvolvido durante o curso sobre escrever com Typescript para React, na Escola de Tecnologia Alura como parte da formação em React.
 
-Currently, two official plugins are available:
+## Principais Tópicos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `Conceitos de React como Componentização, Props e State`
+- `Aprenda sobre os hooks useState e useEffect`
+- `Desenvolver o código com conceitos de boas práticas como DRY e SRP`
 
-## Expanding the ESLint configuration
+## ✔️ Técnicas e tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- `React`
+- `Create React App`
+- `Typescript`
+- `GitHub`
 
-- Configure the top-level `parserOptions` property like this:
+E muito mais!
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Abrir e rodar o projeto
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Para abrir e rodar o projeto, execute `npm install` para instalar as dependências e `npm start` para inicar a aplicação.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
